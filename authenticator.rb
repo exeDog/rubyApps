@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'users'
+require_relative 'data/users'
 
 module RubyApps
   class Authenticator
