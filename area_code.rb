@@ -32,7 +32,7 @@ module RubyApps
     private
 
     def show_available_cities
-      CITIES.map { |city| city[0] }
+      CITIES.keys
     end
 
     def execute
